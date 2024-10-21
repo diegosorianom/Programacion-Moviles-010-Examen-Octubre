@@ -56,6 +56,6 @@ public class LoginUserView extends AppCompatActivity implements ContractLoginUse
 
     @Override
     public void failureLogin(String err) {
-        Toast.makeText(this, "Login failed: " + err, Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Login failed: " + err, Toast.LENGTH_LONG).show();
     }
 }
